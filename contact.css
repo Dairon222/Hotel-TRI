@@ -1,0 +1,38 @@
+button, input, select, textarea {
+    font-family: italic;
+    font-size: 100%;
+  }
+body {
+    background-color: aliceblue;
+    margin: auto;
+    padding: 10px;
+
+}
+header {
+    background-color: lightgray;
+    border: 2px solid black;
+}
+html {
+    font-size: 20px;
+}
+.h1{
+text-align: center;
+padding: 10px;
+font-size: 50px;
+font-style:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a {
+    color: black;
+}
+footer{
+    text-align: center;
+    padding:15px;
+    background-color: lightgray;
+    border: 2px solid black;
+    letter-spacing: 2px;
+}
+.copyright {
+    font-size: 10px;
+    margin: 10px;
+}
+    

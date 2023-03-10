@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Hotel TRI - Contactos</title>
+</head>
+<body>
+    <header>
+        <h1 class="h1">¡Reserva ya tu habitacion!</h1>
+    </header>
+    <h2>Reservas - Hotel TRI</h1>
+        <p>Por favor compartenos tus datos para completar la reserva de la habitacion</p>
+        <form>
+          <fieldset>
+            <label for="primer nombre">Ingresa tu primer nombre: <input id="primer nombre" name="primer nombre" type="text" required /></label>
+            <label for="apellido">Ingresa tu apellido: <input id="apellido" name="apellido" type="text" required /></label>
+            <label for="correo electronico">Ingresa tu correo electronico: <input id="correo electronico" name="correo electronico" type="email" required /></label>
+            <label for="edad">Ingresa tu edad: <input id="edad" name="edad" type="number" min="13" max="110" required/></label>
+          </fieldset>
+          <fieldset>
+            <label for="Cuenta personal"><input id="Cuenta personal" type="radio" name="account-type" class="inline" /> Cuenta personal</label>
+            <label for="Cuenta de negocios"><input id="Cuenta de negocios" type="radio" name="account-type" class="inline" /> Cuenta de negocios</label>
+            <label for="terminos y condiciones">
+              <input id="terminos y condiciones" type="checkbox" required name="terminos y condiciones" class="inline" /> Acepto los <a href="#condiciones">terminos y condiciones</a>
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>¿Que tipo de habitacion prefiere?</legend>
+            <select>
+                <option>Pequeña</option>
+                <option>Grande</option>
+                <option>Buena vista al exterior</option>
+                <option>Con cocina</option>
+                <option>Varias camas</option>
+            </select>
+        </fieldset>
+        <form id="form">
+          <label class="envema" for="gmail">Confirma tu correo electronico: </label>
+          <input type="email" id="correoelectronico" class="email-enviar" required="" placeholder="email@dominio.com"> 
+          <input type="submit" value="Enviar Correo Electronico" class="enviar">
+          <label class="checkbox"><input type="checkbox" checked="">¿Le gustaria recibir novedades sobre el hotel y nuevas ofertas?</label>
+          <input type="submit" value="Aceptar " class="enviar">
+      </form> 
+    
+        <label for="bio">Escribe alguna sugerencia:
+          <textarea id="sugerencia" name="sugerencia" rows="2" cols="20" placeholder="Sugerencia, inquietud o molestia..."></textarea>
+        </label>
+         <a href="index.html"><input type="submit" value="Enviar"> </a>
+    
+    <footer class="footer">
+        <div>
+            <ul>
+                <a href="#">Politica de privacidad</a>
+                <a href="#">Terminos y condiciones</a>
+                <a href="#">Garantias</a>
+            </ul>
+        </div>
+        <p class="copyright">&amp; copy Copyright The Hotel TRI - 2023 </p>
+    </footer>
+</body>
+</html>
