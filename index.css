@@ -1,0 +1,100 @@
+header {
+    background-color: lightgray;
+    padding: 10px;
+    border: 2px solid black;
+}
+.secciones {
+    text-align: center;
+}
+.logo {
+    width: 10%;
+    height: 20%;
+}
+body {
+    background-color: aliceblue;
+    margin: auto;
+    padding: 10px;
+}
+html{
+    font-size: 20px;
+ }
+ .titulo, h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    p{
+        font-size: 25px;
+    }
+  .funciones{
+    display: inline-block;
+    background: aliceblue;
+    text-align: center;
+    width: 15%;
+    padding: 10px 5px;
+    border: 2px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+.sercon{
+    background: lightgray;
+}
+.content-service{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+.servic{
+    width: 30%;
+    text-align: center;
+    height: 300px;
+    background: aliceblue;
+    border-radius: 10px;
+}
+
+.servic p{
+    font-weight: 300;
+    font-size: 25px;
+
+    text-align: center;
+    color: black;
+}
+
+.lugares {
+    background-color: antiquewhite;
+}
+
+.lugares-cont{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.lugares-cont img{
+    width: 30%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: block;
+    box-shadow: 0px 0px 3px 0px aliceblue;
+    overflow: hidden;
+}
+  footer{
+    text-align: center;
+    padding:15px;
+    background-color: lightgray;
+    border: 2px solid black;
+    letter-spacing: 2px;
+}
+.copyright {
+    font-size: 10px;
+    margin: 10px;
+}
+
+.contenedor{
+    width: 100%;
+    height: auto;
+        
+}
